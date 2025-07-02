@@ -15,7 +15,7 @@ const EmployeeFeedbackForm = () => {
     .required("full name is required "),
     email:Yup.string()
     .email("Invalid email format")
-    .reqired("email is required "),
+    .required("email is required "),
     department:Yup.string()
     .required("Select a department"),
     rating:Yup.number()
